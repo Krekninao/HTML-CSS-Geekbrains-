@@ -1,0 +1,186 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu {
+    color: cadetblue;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    display: flex;
+    padding-top: 25px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.product-heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    overflow: hidden;
+}
+
+.short_product_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full_product_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+#prod_char li {
+    color: chocolate;
+    font-size: 15px;
+    list-style-image: url(img/Brush.jpg);
+}
+
+.input_text {
+    width: 300px;
+    height: 20px;
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logotype {
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+}
+
+.good_picture {
+    outline: 2px solid #000;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: darkred;
+}
+
+input[type="email"]:focus {
+    color: #0000ff;
+    background-color: #e0ffff;
+}
+
+input[type="text"],
+textarea {
+    text-transform: capitalize;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+th {
+    background: #c6f5f0;
+}
+
+td {
+    background: #f2fcfb;
+}
+
+caption {
+    font-size: 18px;
+}
+
+thead tr {
+    height: 50px;
+}
+
+.short_product_description:first-letter,
+.full_product_description:first-letter,
+.prod_text:first-letter {
+    font-size: 30px;
+    color: orangered;
+}
+
+.good_picture:hover {
+    outline: none;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 150px;
+    background: url(img/phone.jpg) center bottom;
+}
+
+.footer {
+    height: 150px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: right;
+    background: url(img/water.jpg)center bottom;
+}
+
+#copyright {
+    margin-right: 20px;
+}
+
+#prod_descript {
+    clear: both;
+}
+
+.buy_product {
+    height: 75px;
+    width: 75px;
+    font-weight: bold;
+    background-color: chartreuse;
+    color: red;
+    outline: 1px solid #666;
+}
+
+.buy_product:before {
+    content: "Купить";
+}
+
+.clicked:before {
+    content: "Продано";
+}
+
+.buy_product:hover {
+    background-color: red;
+    color: chartreuse;
+}
+
+.buy_product:active {
+    content: 'Продано!';
+    font-weight: normal;
+    background-color: none;
+    color: none;
+}
+
+.map{
+    width: 100%;
+    height: 374px;
+}
