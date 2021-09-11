@@ -16,7 +16,7 @@ body {
 .menu li {
     list-style-type: none;
 }
-/*
+
 .product-heading {
     color: black;
     font-size: 18px;
@@ -24,7 +24,6 @@ body {
     background-color: #eaeaea;
     overflow: hidden;
 }
-*/
 
 .short_product_description {
     color: #707070;
